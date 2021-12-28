@@ -1,0 +1,72 @@
+:root{
+ --celeste: #d8dbd5;
+ --tan-hide: #f98f53;
+ --blue: #1C98A1;
+ --flame: #E1583E;
+}
+body{
+    background-color:  var(--celeste);
+    font-family:Arial, Helvetica, sans-serif;
+        
+}
+/* HEADER / NAV BAR STYLES START */
+header{
+    background-color: var(--flame);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1{
+    background-size: 30px 15px;
+    background-color: var(--blue);
+    width: 300px;
+       
+}
+header h1 a{
+    font-weight: bold;
+    color: var(--celeste);
+    font-size: 36px;
+    text-decoration: none;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.6vw;
+    color: var(--celeste);
+    text-decoration:underline;
+    }
+    
+.hero{
+    background-image: url("../images/hero-image.jpg");
+    background-position: bottom;
+    padding: 120px 35px;
+    background-size:cover;    
+}
+.hero h2{
+    color: var(--celeste);
+    text-align: right; 
+    background-color: var(--flame);
+    width: 30%; 
+        
+}
+.my-work{
+    display: flex;    
+}
+.about-me{
+    display: flex;
+}
+.contact-.hero{
+    display: flex;
+}
+.section-title{
+    font-size: 50px;
+    color: var(--flame);
+    flex: 50%;
+    }
