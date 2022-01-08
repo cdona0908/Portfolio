@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/styles.css">
         <title>Celia Dona Portfolio</title>
     </head>
@@ -29,80 +30,92 @@
         <section class=hero>
             <h2>Cool Subtitle Here</h2>
         </section>
-        <!--About Me Start-->
-        <section id="about-me" class="about-me">
-            <h3 class="section-title"> About Me</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero laboriosam ex illo exercitationem soluta voluptatem! Distinctio sed, officia, consectetur corrupti fugiat voluptatum dolores laborum nostrum non unde dolorem nihil voluptate.
-            </p>
-        </section>
-        <!--About Me End-->
-        <!--My Work Start-->
-        <section id="my-work" class="my-work">
-            <h3 class="section-title">My Work</h3>
-            <div class="works">
-                <div class="work-info">
-                    <a>
-                        <img src="./assets/images/Surf.jpg" alt="person sitting on surfboard watching the sunset" style="width:900px; height: 500px;">
-                    </a>
-                    
-                    <div class="work-description">
-                        <h4 class="work-title">Surf Report</h4>
-                        <h5 class="work-languages">MERN/Stack</h5>
+        <!--Content Section-->   
+        <section class="content">
+            <!--About Me Start-->
+            <article id="about-me" class="about-me">
+                <h3 class="section-title"> About Me</h3>
+                <p class="column-right">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero laboriosam ex illo exercitationem soluta voluptatem! Distinctio sed, officia, consectetur corrupti fugiat voluptatum dolores laborum nostrum non unde dolorem nihil voluptate.
+                </p>
+            </article>
+            <!--About Me End-->
+            <!--My Work Start-->
+            <article id="my-work" class="my-work">
+                <h3 class="section-title">My Work</h3>
+                <div class="works column-right">
+                    <div class="work-info">
+                        <a>
+                            <img src="./assets/images/Surf.jpg" alt="person sitting on surfboard watching the sunset" style="max-width: 100%; max-height: 50%;">
+                            <div class="work-description">
+                                <h4 class="work-title">Surf Report</h4>
+                                <h5 class="work-languages">MERN/Stack</h5>
+                            </div>
+                        </a>
+                                               
                     </div>
-                </div>
-                <div class="work-info">
-                    <a>
-                        <img src="./assets/images/led-wall.jpg" alt="red and yellow led mosaic" style="width: 450px; height: 250px;">
-                    </a>
-                    
-                    <div class="work-description">
-                        <h4 class="work-title">LED Wall</h4>
-                        <h5 class="work-languages">Node/IoT</h5>
+                    <div class="work-info">
+                        <a>
+                            <img src="./assets/images/led-wall.jpg" alt="red and yellow led mosaic" style="width:450px; height:200px;">
+                            <div class="work-description">
+                                <h4 class="work-title">LED Wall</h4>
+                                <h5 class="work-languages">Node/IoT</h5>
+                            </div>
+                        </a>
+                        
+                        
                     </div>
-                </div>
-                <div class="work-info">
-                    <a>
-                        <img src="./assets/images/calculator.jpg" alt="casio calculator on pile of paper over a red table and person with laptop on the background" style="width: 450px; height: 250px;">
-                    </a>
-                    
-                    <div class="work-description">
-                        <h4 class="work-title">Calcultor</h4>
-                        <h5 class="work-languages">React/JavaScript/CSS</h5>
+                    <div class="work-info ">
+                        <a>
+                            <img src="./assets/images/calculator.jpg" alt="casio calculator on pile of paper over a red table and person with laptop on the background" style="width:450px; height:200px;">
+                            <div class="work-description">
+                                <h4 class="work-title">Calcultor</h4>
+                                <h5 class="work-languages">React/JavaScript/CSS</h5>
+                            </div>
+                        </a>
+                        
+                        
                     </div>
-                </div>
-                <div class="work-info">
-                    <a>
-                        <img src="./assets/images/puzzle.jpg" alt="pieces of puzzle on a table" style="width: 450px; height: 250;">
-                    </a>
-                    
-                    <div class="work-description">
-                        <h4 class="work-title">Pastel Puzzles</h4>
-                        <h5 class="work-languages">MERN/Stack</h5>
+                    <div class="work-info">
+                        <a>
+                            <img src="./assets/images/puzzle.jpg" alt="pieces of puzzle on a table" style="width: 450px; height: 200px;">
+                            <div class="work-description">
+                                <h4 class="work-title">Pastel Puzzles</h4>
+                                <h5 class="work-languages">MERN/Stack</h5>
+                            </div>
+                        </a>
+                                               
                     </div>
-                </div>
-                <div class="work-info">
-                    <a>
-                        <img src="./assets/images/Run Buddy.JPG" alt="home page of RunBuddy website with yellow form and navigation bar" style="width: 450px; height: 250px;">
-                    </a>
-                    
-                    <div class="work-description">
-                        <h4 class="work-title">Run Buddy</h4>
-                        <h5 class="work-languages">HTML/CSS</h5>
+                    <div class="work-info">
+                        <a href="https://cdona0908.github.io/run-buddy/" target="_blank">
+                            <img src="./assets/images/Run Buddy.JPG" alt="home page of RunBuddy website with yellow form and navigation bar" style="width: 450px; height: 200px;">
+                            <div class="work-description">
+                                
+                                <h4 class="work-title">Run Buddy</h4>
+                                <h5 class="work-languages">HTML/CSS</h5>
+                            </div>
+                        </a>
+                                               
                     </div>
-                </div>
-            </div>
+                </div>    
+    
+            </article>
+            <!--My Work End-->
+            <!--Contact Me Start-->
+            <article id="contact-me" class="contact-me">
+              <h3 class="section-title">Contact Me</h3>
+              <div class="column-right contact-info">
+                <!--contact info-->
+                555-555-555
+                 <a href="mailto:celiamdona@gmail.com">celiamdona@gmail.com</a>
+                 <a href="linkedin.com/in/celia-dona-892644a5">LinkedIn</a>
+                                                
+             </div>
+            </article>
+            <!--Contact Me End-->
 
+        </section>
 
-        </section>
-        <!--My Work End-->
-        <!--Contact Me Start-->
-        <section id="contact-me" class="contact-me">
-          <h3 class="section-title">Contact Me</h3>
-          <div>
-            <!--contact info-->
-          </div>
-        </section>
-        <!--Contact Me End-->
+        
     </body>
 </html>
