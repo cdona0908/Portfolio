@@ -21,8 +21,9 @@ Upload the following elements to the webserver used:
 ## Links
 
 * URL of the deployed application (GitHub Pages):
-
+ https://cdona0908.github.io/portfolio/
 * URL of the GitHub repository:
+https://github.com/cdona0908/portfolio.git
 
 # Applcation's appearance
 
